@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Imperial+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+}
+
+.header {
+    color: gray;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.img {
+    margin-left: 42%;
+    margin-top: 2%;
+}
+
+.menu {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+.menu ul li a:hover,
+header ul li a.active {
+    color: #ffae13;
+}
+
+.content {
+    margin-top: -10px;
+    background-image: url(https://ld-wp.template-help.com/wordpress_59005/wp-content/uploads/2016/09/index-1.jpg);
+    background-size: cover;
+    height: 660px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.container2 {
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h3 {
+    font-size: 44px;
+    font-family: 'Amatic SC', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.content h1 {
+    font-size: 10em;
+    font-family: 'Amatic SC', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.content h2 {
+    color: #ffae13;
+    font-size: 50px;
+    font-family: 'Amatic SC', Helvetica, Arial, Lucida, sans-serif;
+    margin-top: -30px;
+}
+
+.content p {
+    font-size: 35px;
+}
+
+.container3 {
+    background-color: black;
+    text-align: center;
+}
+
+.container3 h1 {
+    font-family: 'Amatic SC', Helvetica, Arial, Lucida, sans-serif;
+    color: #ffae13;
+    font-size: 5em;
+}
+
+#input {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 2px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+
+#output {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.imgDrinks {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding: 5px 10px;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s eas
+}
+
+.imgDrinks:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.contants {
+    color: gray;
+    font-family: 'Amatic SC', Helvetica, Arial, Lucida, sans-serif;
+    display: block;
+}
+.write{
+    color: gray;
+    font-size: 1.5em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 90px;
+    padding: 20px 20px;
+}
+.write p:hover{
+    color: #ffae13;
+}
+.alltexts{
+    margin-top: -5%;
+    color: gray;
+    font-size: 1.5em;
+    padding: 10px 10px;
+}
+.contentIMG{
+    width: 300px;
+    height: 300px;
+}
+#output2{
+display: flex;
+}
+.Exit{
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 2px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
